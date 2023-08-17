@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0 20%;
+  background-color: rgba(245, 231, 220, 0.349);
+}
+
+img {
+  width: 45%;
+  border-radius: 3vw;
+}
+
+.projectContainer {
+  display: flex;
+  flex-direction: row;
+  margin: 3% auto;
+  align-items: center;
+}
+
+a {
+  display: flex;
+  padding: 0;
+  flex: 0%;
+  margin: 3%;
+  color: rgb(65, 60, 119);
+  font-size: 1.2vw;
+}
+
+.project1Img,
+.project2Img,
+.project3Img {
+  flex: 1;
+  transition: 0.2s ease-out;
+}
+
+.project1Container a {
+  margin-left: auto;
+}
+
+.project2Img {
+  border: 2px solid rgba(137, 210, 197, 0.744);
+}
+
+.writing {
+  flex: 10%;
+  margin: 2% auto;
+}
+
+.project1Img:hover,
+.project2Img:hover,
+.project3Img:hover {
+  flex: 1;
+  transform: scale(105%);
+}
+
+.writing1 {
+  margin-left: 5%;
+}
+
+.writing2 a {
+  margin-left: 0;
+  color: rgb(91, 192, 175);
+}
+
+.writing3 a {
+  margin-left: 0;
+  color: rgb(69, 48, 75);
+}
+
+p {
+  font-size: 1.2vw;
+}
+h2 {
+  margin: 0;
+}
+
+@media only screen and (max-width: 900px) {
+
+  body{
+    margin:0 10%
+  }
+  img {
+    width: 45%;
+    border-radius: 4vw;
+  }
+
+  .projectContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  a {
+    display: flex;
+    padding: 0;
+    flex: 0%;
+    margin: 3%;
+    color: rgb(65, 60, 119);
+  }
+
+  .project1Img,
+  .project2Img {
+    flex: 1;
+    transition: 0.2s ease-out;
+  }
+
+  .project1Container a {
+    margin-left: auto;
+  }
+
+  .project2Img {
+    border: 2px solid rgba(137, 210, 197, 0.744);
+  }
+
+  .writing {
+    flex: 10%;
+    margin: 2% auto;
+  }
+
+  .project1Img:hover,
+  .project2Img:hover {
+    flex: 1;
+    transform: scale(105%);
+  }
+
+  .writing2 a {
+    margin-left: 0;
+    color: rgb(91, 192, 175);
+  }
+
+  h2 {
+    margin: 0;
+  }
+
+  .writing1 {
+    margin-left: 5%;
+  }
+
+  a {
+    display: flex;
+    padding: 0;
+    flex: 0%;
+    margin: 3%;
+    color: rgb(65, 60, 119);
+    font-size: 2.4vw;
+  }
+
+  p{
+    font-size: 2.4vw;
+  }
+}
